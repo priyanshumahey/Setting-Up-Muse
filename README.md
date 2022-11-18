@@ -2,6 +2,9 @@
  
 This repository will go over how to set up the MUSE headset.
 
+The main parts of this repo are to go over how read MUSE data and then also recieve and plot the data.
+
+
 ## Connecting MUSE to your computer
 The first thing we need to do is connect the MUSE to our laptop. To do this, we'll be using something called Pylsl.
 
@@ -28,7 +31,9 @@ Our next steps will be to load up BlueMuse and then try to get it to connect to 
 
 ### MUSE Visualization
 
-https://github.com/alexandrebarachant/muse-lsl
+This is a simple Python package for streaming, visualizing, and recording. For more information, go to the github here: https://github.com/alexandrebarachant/muse-lsl. We can use this to quickly visualize and get a sense of the data obtained by the graph.
+
+To download it, do the following: 
 
 ``` shell
 pip install muselsl
@@ -248,4 +253,3 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-
